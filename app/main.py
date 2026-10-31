@@ -23,7 +23,7 @@ Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to Payments API"}
+    return {"message": "Payments API is running successfully!"}
 
 
 # Create a new account
